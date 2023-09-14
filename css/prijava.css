@@ -1,0 +1,30 @@
+
+body{
+    background-image: url(slike/yellow-background-with-chinese-food.jpg);
+    background-size: 1550px;
+  width:  700px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logovanje{
+  top: 70px;
+  right: 400px;
+  left: 400px;
+  bottom: 70px;
+  margin: auto;
+  position: relative;
+  border: 10px solid red;
+  background-color: white;
+  justify-content: center;
+  align-content: center;
+  align-items: center; 
+}
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    font-family: "Type Machine", "Courier New", monospace;
+    font-size: 70px;
+}

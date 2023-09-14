@@ -1,0 +1,137 @@
+body {
+    background-image: url(slike/stupefied-handsome-male-driver-scooter-with-red-helmet-delivering-pizza.jpg);
+    background-size: 1550px;
+  width:  700px;
+  height: 600px;
+}
+#jelovnik{
+    position: relative;
+    left: 100px;
+    top: 300px;
+    display: inline-block;
+    margin: 10px;
+    padding: 0 20px;
+    text-align: center; 
+    text-decoration: none;
+    font: 25px Arial;
+    text-shadow: 1px 1px 1px rgba(255,255,255,.22);
+    border-radius: 30px;
+    box-shadow: 1px 1x 1px rgba(0,0,0,.29);
+    transition: all 0.15s ease;
+    background-color: red;
+    color: yellow;
+}
+#opis{
+    pointer-events: none;
+    position: relative;
+    left: -100px;
+    top: 500px;
+    background-color: yellow;
+    color: red;
+    border-radius: 30px;
+    box-shadow: 1px 1x 1px rgba(0,0,0,.29);
+    transition: all 0.15s ease;
+}
+#onama{
+    position: relative;
+    left: 1200px;
+    top: 80px;
+    display: inline-block;
+    margin: 10px;
+    padding: 0 20px;
+    text-align: center; 
+    text-decoration: none;
+    font: 25px Arial;
+    text-shadow: 1px 1px 1px rgba(255,255,255,.22);
+    border-radius: 30px;
+    box-shadow: 1px 1x 1px rgba(0,0,0,.29);
+    transition: all 0.15s ease;
+    background-color: red;
+    color: yellow;
+}
+#opisONama{
+    pointer-events: none;
+    position: relative;
+    left: 1000px;
+    top: 280px;
+    background-color: yellow;
+    color: red;
+    border-radius: 30px;
+    box-shadow: 1px 1x 1px rgba(0,0,0,.29);
+    transition: all 0.15s ease;
+}
+#dugme1 {
+    position: relative;
+    left: 670px;
+    display: inline-block;
+    margin: 10px;
+    padding: 0 20px;
+    text-align: center; 
+    text-decoration: none;
+    font: 25px Arial;
+    text-shadow: 1px 1px 1px rgba(255,255,255,.22);
+    border-radius: 30px;
+    box-shadow: 1px 1x 1px rgba(0,0,0,.29);
+    transition: all 0.15s ease;
+    background-color: red;
+    color: yellow;
+}
+.navbar {
+    width: 1500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #333;
+    font-family: Arial;
+    left: 200px;
+  }
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: yellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: yellow;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    color: red;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  
